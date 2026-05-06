@@ -1,0 +1,43 @@
+{
+  "title": "Simple Image Upload App",
+  "description": "In full-stack development, a common task involves working with files. This challenge presents an opportunity to create a straightforward Image Upload application, enabling users to upload images.",
+  "userStories": [
+    {
+      "content": "Create a simple image upload application following the given design."
+    },
+    {
+      "content": "Users can upload an image at a time. The file should be JPG, PNG, or GIF. The maximum size is 2MB."
+    },
+    {
+      "content": "Users can drag and drop the file to upload it."
+    },
+    {
+      "content": "Users can browse files and select a file to upload."
+    },
+    {
+      "content": "When the image is uploading, users can see a loader like in the design."
+    },
+    {
+      "content": "When the image is successfully uploaded, users can see the image."
+    },
+    {
+      "content": "After the image is uploaded, users can copy its address by selecting the `Share` button"
+    },
+    {
+      "content": "After the image is uploaded, users can download the image by selecting the `Download` button"
+    },
+    {
+      "content": "Optionally, users change theme between dark and light."
+    },
+    {
+      "content": "Deploy the solution and submit Repository URL and Demo URL."
+    }
+  ],
+  "text": [
+    { "content": "Drag & drop a file or browse files" }, 
+    { "content": "JPG, PNG or GIF - Max file size 2MB" }, 
+    { "content": "Uploading, please wait.." },
+    { "content": "Share" },
+    { "content": "Download" }
+  ]
+}

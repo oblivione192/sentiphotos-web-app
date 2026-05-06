@@ -1,0 +1,25 @@
+{
+  "name": "image-gallery-solo-project",
+  "version": "1.0.0",
+  "description": "A web application to upload images and view images.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:frontend": "cd frontend && npm run test",
+    "test:backend": "cd backend-new && npm run test",
+    "start:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend-new && npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.14",
+    "vite": "^7.2.7"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.15.21",
+    "@swc/helpers": "^0.5.19",
+    "regenerator-runtime": "^0.14.1",
+    "ts-node": "^10.9.2"
+  }
+}
